@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(250, 250, 250);
+}
+
+.light{
+    display: flex;
+    background-color: rgb(190, 233, 233);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    color: black;
+
+}
+.dark{
+    display: flex;
+    background-color: rgb(17, 18, 18);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    color: white;
+}
+.nav2{
+    display: flex;
+    gap: 17px;
+    font-size: 20px;
+}
+button{
+    padding: 8px 8px;
+    border: none;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-weight: 500;
+}
